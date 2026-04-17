@@ -73,12 +73,13 @@ The main objective of this project is to:
    - Generates 2D graphs and 3D interactive climate plots
 
 ---
+📁 Project Structure
 
-## 📁 Project Structure
 Climate-Trend-Analyzer/
-├── data/              # Climate dataset (CSV)
-├── outputs/           # Graphs and results
-├── src/               # All Python code files
+
+├── data/                  # Climate dataset (CSV)
+├── outputs/               # Graphs and results
+├── src/                   # All Python code files
 │   ├── data_generator.py
 │   ├── preprocess.py
 │   ├── trend_analysis.py
@@ -86,9 +87,9 @@ Climate-Trend-Analyzer/
 │   ├── forecasting.py
 │   └── visualization_3d.py
 │
-├── main.py            # Run entire project
-├── requirements.txt   # Dependencies
-└── README.md          # Project documentation
+├── main.py               # Run entire project
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
 ---
 
 ## 🎓 Learning Outcomes
