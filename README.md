@@ -76,9 +76,11 @@ The main objective of this project is to:
 📁 Project Structure
 
 Climate-Trend-Analyzer/
-
+│
 ├── data/                  # Climate dataset (CSV)
+│
 ├── outputs/               # Graphs and results
+│
 ├── src/                   # All Python code files
 │   ├── data_generator.py
 │   ├── preprocess.py
@@ -87,9 +89,9 @@ Climate-Trend-Analyzer/
 │   ├── forecasting.py
 │   └── visualization_3d.py
 │
-├── main.py               # Run entire project
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
+├── main.py                # Run entire project
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
 ---
 
 ## 🎓 Learning Outcomes
