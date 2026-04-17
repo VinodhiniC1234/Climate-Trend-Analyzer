@@ -76,24 +76,19 @@ The main objective of this project is to:
 
 ## 📁 Project Structure
 Climate-Trend-Analyzer/
+├── data/              # Climate dataset (CSV)
+├── outputs/           # Graphs and results
+├── src/               # All Python code files
+│   ├── data_generator.py
+│   ├── preprocess.py
+│   ├── trend_analysis.py
+│   ├── anomaly_detection.py
+│   ├── forecasting.py
+│   └── visualization_3d.py
 │
-├── data/
-│   └── climate_data.csv              # Generated synthetic climate dataset
-│
-├── outputs/
-│   └── climate_trends.png            # Saved visualization outputs
-│
-├── src/
-│   ├── data_generator.py             # Generates synthetic climate data
-│   ├── preprocess.py                 # Data cleaning & preprocessing
-│   ├── trend_analysis.py             # Climate trend visualization (2D graphs)
-│   ├── anomaly_detection.py          # ML-based anomaly detection (Isolation Forest)
-│   ├── forecasting.py                # Temperature prediction model
-│   ├── visualization_3d.py          # 3D interactive climate visualization (Plotly)
-│
-├── main.py                           # Main entry point to run entire pipeline
-├── requirements.txt                  # Python dependencies
-├── README.md                         # Project documentation
+├── main.py            # Run entire project
+├── requirements.txt   # Dependencies
+└── README.md          # Project documentation
 ---
 
 ## 🎓 Learning Outcomes
