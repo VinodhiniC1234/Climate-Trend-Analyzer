@@ -74,6 +74,7 @@ The main objective of this project is to:
 
 ---
 📁 Project Structure
+---
 
 Climate-Trend-Analyzer/
 │
@@ -92,6 +93,7 @@ Climate-Trend-Analyzer/
 ├── main.py                # Run entire project
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
+---
 ---
 
 ## 🎓 Learning Outcomes
